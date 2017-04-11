@@ -18,6 +18,9 @@ TARGET_BOOTLOADER_BOARD_NAME := G8231
 
 WIFI_BUS := PCIE
 
+# NFC
+NXP_CHIP_TYPE := PN553
+
 BOARD_KERNEL_CMDLINE += androidboot.hardware=keyaki
 
 #Reserve space for data encryption (23857201152-16384)
