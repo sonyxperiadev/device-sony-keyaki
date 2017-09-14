@@ -16,6 +16,9 @@ include device/sony/tone/PlatformConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := G8231
 
+# Platform
+PRODUCT_PLATFORM := tone
+
 WIFI_BUS := PCIE
 
 # NFC
