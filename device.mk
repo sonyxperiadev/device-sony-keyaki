@@ -54,6 +54,7 @@ PRODUCT_COPY_FILES += \
 
 # Device Init
 PRODUCT_PACKAGES += \
+    fstab.keyaki \
     init.recovery.keyaki \
     init.keyaki \
     ueventd.keyaki
