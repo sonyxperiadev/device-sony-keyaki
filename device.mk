@@ -16,7 +16,7 @@
 DEVICE_PATH := device/sony/keyaki/rootdir
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay
+    device/sony/keyaki/overlay
 
 # Device Specific Permissions
 PRODUCT_COPY_FILES := \
