@@ -69,8 +69,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.keyaki \
     init.recovery.keyaki \
-    init.keyaki \
-    ueventd.keyaki
+    init.keyaki
 
 # Lights
 PRODUCT_PACKAGES += \
