@@ -75,10 +75,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.keyaki
 
-# Fingerprint HAL
-PRODUCT_PACKAGES += \
-    fingerprint.keyaki
-
 # NFC config
 PRODUCT_PACKAGES += \
     nfc_nci.keyaki
