@@ -71,10 +71,6 @@ PRODUCT_PACKAGES += \
     init.recovery.keyaki \
     init.keyaki
 
-# Lights
-PRODUCT_PACKAGES += \
-    lights.keyaki
-
 # Simple PowerHAL
 PRODUCT_PACKAGES += \
     power.keyaki
