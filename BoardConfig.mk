@@ -14,7 +14,7 @@
 
 include device/sony/tone/PlatformConfig.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := G8231
+TARGET_BOOTLOADER_BOARD_NAME := tone
 
 # Platform
 PRODUCT_PLATFORM := tone
