@@ -62,8 +62,13 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/firmware/BCM4359C0.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4359C0.hcd
 
 # WIFI FW patch
+ifeq ($(WIFI_DRIVER_BUILT),brcmfmac)
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/vendor/firmware/bcmdhd.cal:$(TARGET_COPY_OUT_VENDOR)/firmware/brcm/brcmfmac4359-pcie.txt
+else
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/firmware/bcmdhd.cal:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd.cal
+endif
 
 # Device Init
 PRODUCT_PACKAGES += \
