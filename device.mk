@@ -75,10 +75,6 @@ PRODUCT_PACKAGES += \
     init.recovery.keyaki \
     init.keyaki
 
-# Simple PowerHAL
-PRODUCT_PACKAGES += \
-    power.keyaki
-
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
     InCallUI \
