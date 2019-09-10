@@ -15,3 +15,9 @@
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_g8231.mk \
                      $(LOCAL_DIR)/aosp_g8232.mk
 
+COMMON_LUNCH_CHOICES += \
+    aosp_g8231-eng \
+    aosp_g8231-userdebug \
+    aosp_g8232-eng \
+    aosp_g8232-userdebug
+
